@@ -1,0 +1,11 @@
+framework module SmartMessageSdk {
+  umbrella header "SmartMessageSdk.h"
+  export *
+
+  module * { export * }
+}
+
+module SmartMessageSdk.Swift {
+  header "SmartMessageSdk-Swift.h"
+  requires objc
+}
