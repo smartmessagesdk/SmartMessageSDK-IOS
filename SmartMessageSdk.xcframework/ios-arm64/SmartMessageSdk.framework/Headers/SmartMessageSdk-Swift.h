@@ -676,10 +676,12 @@ SWIFT_CLASS("_TtC15SmartMessageSdk17PermissionManager")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIWindow;
 @class UIApplication;
 @class NSData;
 SWIFT_CLASS("_TtC15SmartMessageSdk14SMPAppDelegate")
 @interface SMPAppDelegate : UIResponder <UIApplicationDelegate>
+@property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationDidEnterBackground:(UIApplication * _Nonnull)application;

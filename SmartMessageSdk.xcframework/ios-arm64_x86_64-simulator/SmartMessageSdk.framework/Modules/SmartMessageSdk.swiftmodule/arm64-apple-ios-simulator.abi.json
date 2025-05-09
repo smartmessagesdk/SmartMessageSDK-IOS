@@ -15105,6 +15105,132 @@
         "printedName": "SMPAppDelegate",
         "children": [
           {
+            "kind": "Var",
+            "name": "window",
+            "printedName": "window",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SmartMessageSdk@objc(cs)SMPAppDelegate(py)window",
+            "mangledName": "$s15SmartMessageSdk14SMPAppDelegateC6windowSo8UIWindowCSgvp",
+            "moduleName": "SmartMessageSdk",
+            "isOpen": true,
+            "objc_name": "window",
+            "declAttributes": [
+              "HasInitialValue",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIWindow?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindow",
+                        "printedName": "UIKit.UIWindow",
+                        "usr": "c:objc(cs)UIWindow"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartMessageSdk@objc(cs)SMPAppDelegate(im)window",
+                "mangledName": "$s15SmartMessageSdk14SMPAppDelegateC6windowSo8UIWindowCSgvg",
+                "moduleName": "SmartMessageSdk",
+                "implicit": true,
+                "isOpen": true,
+                "objc_name": "window",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIWindow?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindow",
+                        "printedName": "UIKit.UIWindow",
+                        "usr": "c:objc(cs)UIWindow"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SmartMessageSdk@objc(cs)SMPAppDelegate(im)setWindow:",
+                "mangledName": "$s15SmartMessageSdk14SMPAppDelegateC6windowSo8UIWindowCSgvs",
+                "moduleName": "SmartMessageSdk",
+                "implicit": true,
+                "isOpen": true,
+                "objc_name": "setWindow:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15SmartMessageSdk14SMPAppDelegateC6windowSo8UIWindowCSgvM",
+                "mangledName": "$s15SmartMessageSdk14SMPAppDelegateC6windowSo8UIWindowCSgvM",
+                "moduleName": "SmartMessageSdk",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "application",
             "printedName": "application(_:didFinishLaunchingWithOptions:)",
@@ -29129,49 +29255,49 @@
       "value": "\"exit\""
     },
     {
-      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedData\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedDataXXX\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 723,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedData\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedDataXXX\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 852,
       "length": 8,
       "value": "\"delete\""
     },
     {
-      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedData\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedDataXXX\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 13,
       "value": "\"full_cancel\""
     },
     {
-      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedData\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedDataXXX\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1131,
       "length": 11,
       "value": "\"icon_copy\""
     },
     {
-      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedData\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedDataXXX\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1275,
       "length": 14,
       "value": "\"icon_notread\""
     },
     {
-      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedData\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedDataXXX\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1409,
       "length": 7,
       "value": "\"pause\""
     },
     {
-      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedData\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/sinan.senturk\/Library\/Developer\/Xcode\/DerivedDataXXX\/SmartMessageSdk-gwcwlyqegnzpekarimlflygdmiup\/ArchiveIntermediates\/SmartMessageSdk\/IntermediateBuildFilesPath\/SmartMessageSdk.build\/Release-iphonesimulator\/SmartMessageSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1534,
       "length": 6,

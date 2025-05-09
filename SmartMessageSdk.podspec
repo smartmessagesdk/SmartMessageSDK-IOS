@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'SmartMessageSdk'
-  spec.version          = '2.0.11'
+  spec.version          = '2.11.0'
   spec.summary          = 'For integration with the SmartMessage Messaging Platform'
 
   spec.description = <<~DESC

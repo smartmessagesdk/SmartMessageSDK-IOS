@@ -586,6 +586,7 @@ extension SmartMessageSdk.SmartMessage {
   public func showHTMLPopUp(baseViewController: UIKit.UIViewController, notificationInfo: [Swift.String : Any])
 }
 @objc @_inheritsConvenienceInitializers @main @_Concurrency.MainActor @preconcurrency open class SMPAppDelegate : UIKit.UIResponder, UIKit.UIApplicationDelegate, SmartMessageSdk.DeepLinkHandlerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc open var window: UIKit.UIWindow?
   @_Concurrency.MainActor @preconcurrency @objc open func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?) -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency open func setDeeplinkHandlerDelegate(delegate: (any SmartMessageSdk.DeepLinkHandlerDelegate)!)
   @_Concurrency.MainActor @preconcurrency @objc open func applicationDidBecomeActive(_ application: UIKit.UIApplication)
