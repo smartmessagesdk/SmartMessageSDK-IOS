@@ -259,6 +259,12 @@ public protocol DeepLinkHandlerDelegate {
 extension SmartMessageSdk.SmartMessage {
   public func isDeepLinkValid(userInfo: [Swift.AnyHashable : Any], delegate: any SmartMessageSdk.DeepLinkHandlerDelegate) throws -> Swift.Bool
 }
+public protocol NotificationCallbacksProtocol {
+  func didReceiveNotification(notification: [Swift.String : Any])
+  func didClickNotification(notification: [Swift.String : Any])
+  func didClickNotificationButton(notification: [Swift.String : Any], button: SmartMessageSdk.NotificationActionModel)
+  func didDismissNotification(notification: [Swift.String : Any])
+}
 @_hasMissingDesignatedInitializers public class MessageListRequestModel : SmartMessageSdk.BaseEncodableModel {
   public init(customerNo: Swift.String?, externalId: Swift.String?, status: [Swift.String]?, pushType: [Swift.String]?, expiredPush: Swift.Bool?, index: Swift.Int?, size: Swift.Int?, orderBy: Swift.String?, startDate: Swift.String?, endDate: Swift.String?)
   @objc deinit
@@ -388,6 +394,7 @@ open class BaseDecodableModel : Swift.Decodable, Swift.Encodable {
   public func getAppGroupName() -> Swift.String
   public func isNotificationPermissionGranted(isGranted: Swift.Bool)
   public func isLocationPermissionGranted(status: CoreLocation.CLAuthorizationStatus)
+  public func registerNotificationCallbacks(_ callbacks: any SmartMessageSdk.NotificationCallbacksProtocol)
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
   public func startLocationServices()
@@ -588,7 +595,6 @@ extension SmartMessageSdk.SmartMessage {
 @objc @_inheritsConvenienceInitializers @main @_Concurrency.MainActor @preconcurrency open class SMPAppDelegate : UIKit.UIResponder, UIKit.UIApplicationDelegate, SmartMessageSdk.DeepLinkHandlerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc open var window: UIKit.UIWindow?
   @_Concurrency.MainActor @preconcurrency @objc open func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?) -> Swift.Bool
-  @_Concurrency.MainActor @preconcurrency open func setDeeplinkHandlerDelegate(delegate: (any SmartMessageSdk.DeepLinkHandlerDelegate)!)
   @_Concurrency.MainActor @preconcurrency @objc open func applicationDidBecomeActive(_ application: UIKit.UIApplication)
   @_Concurrency.MainActor @preconcurrency @objc open func applicationDidEnterBackground(_ application: UIKit.UIApplication)
   @_Concurrency.MainActor @preconcurrency open func handleExternalDeepLink(link: Swift.String)

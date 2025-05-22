@@ -130,11 +130,11 @@
 		</data>
 		<key>Modules/SmartMessageSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		GoRqM3TXqWCmMspUeussYHUXRlI=
+		GUtdzHGz+xZnCwJhXXJNCGxC6Rw=
 		</data>
 		<key>Modules/SmartMessageSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		UrYERsNVdQRs6gRd/smWh6B/U3U=
+		sZzaWrK6ji4lfCAmCq7BE+F5xVc=
 		</data>
 		<key>Modules/SmartMessageSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -142,11 +142,11 @@
 		</data>
 		<key>Modules/SmartMessageSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		UrYERsNVdQRs6gRd/smWh6B/U3U=
+		sZzaWrK6ji4lfCAmCq7BE+F5xVc=
 		</data>
 		<key>Modules/SmartMessageSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		XLWY3+dOmkkyhUwoSK5T3pES3kk=
+		Nm3T7FL85zF7cmappIxfIf+jFD4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -393,14 +393,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7tqbL+w4jpmLqERqusgcSvVb0QkQlKT3o562FGj7JQc=
+			6Haqhajs9l7TnlKDanZytCpCSmzEq4y2I0cyQ2fSyQA=
 			</data>
 		</dict>
 		<key>Modules/SmartMessageSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i/xRt5iIewwykqfn8+XslDgu5a5B6PTa94CeUR5NfWI=
+			8UJ2uuC7FPyNRJElg31FNCWefqiSDw/4Xd8S2UDLQI4=
 			</data>
 		</dict>
 		<key>Modules/SmartMessageSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -414,14 +414,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i/xRt5iIewwykqfn8+XslDgu5a5B6PTa94CeUR5NfWI=
+			8UJ2uuC7FPyNRJElg31FNCWefqiSDw/4Xd8S2UDLQI4=
 			</data>
 		</dict>
 		<key>Modules/SmartMessageSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fR0RDhRKiTDxgqBR0VVpmrWPFBFU23eJNFOJF7GSM/c=
+			V+dlBJWeNUaegSotvbVxDoiiTvw3TcFnbnb6At126r4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

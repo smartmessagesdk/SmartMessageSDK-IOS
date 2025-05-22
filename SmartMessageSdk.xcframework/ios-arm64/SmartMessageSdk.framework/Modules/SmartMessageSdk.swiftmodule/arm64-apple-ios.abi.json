@@ -2156,8 +2156,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -4394,6 +4393,203 @@
         "moduleName": "SmartMessageSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationCallbacksProtocol",
+        "printedName": "NotificationCallbacksProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didReceiveNotification",
+            "printedName": "didReceiveNotification(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SmartMessageSdk29NotificationCallbacksProtocolP010didReceiveD012notificationySDySSypG_tF",
+            "mangledName": "$s15SmartMessageSdk29NotificationCallbacksProtocolP010didReceiveD012notificationySDySSypG_tF",
+            "moduleName": "SmartMessageSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SmartMessageSdk.NotificationCallbacksProtocol>",
+            "sugared_genericSig": "<Self where Self : SmartMessageSdk.NotificationCallbacksProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClickNotification",
+            "printedName": "didClickNotification(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SmartMessageSdk29NotificationCallbacksProtocolP08didClickD012notificationySDySSypG_tF",
+            "mangledName": "$s15SmartMessageSdk29NotificationCallbacksProtocolP08didClickD012notificationySDySSypG_tF",
+            "moduleName": "SmartMessageSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SmartMessageSdk.NotificationCallbacksProtocol>",
+            "sugared_genericSig": "<Self where Self : SmartMessageSdk.NotificationCallbacksProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClickNotificationButton",
+            "printedName": "didClickNotificationButton(notification:button:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationActionModel",
+                "printedName": "SmartMessageSdk.NotificationActionModel",
+                "usr": "s:15SmartMessageSdk23NotificationActionModelC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SmartMessageSdk29NotificationCallbacksProtocolP08didClickD6Button12notification6buttonySDySSypG_AA0D11ActionModelCtF",
+            "mangledName": "$s15SmartMessageSdk29NotificationCallbacksProtocolP08didClickD6Button12notification6buttonySDySSypG_AA0D11ActionModelCtF",
+            "moduleName": "SmartMessageSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SmartMessageSdk.NotificationCallbacksProtocol>",
+            "sugared_genericSig": "<Self where Self : SmartMessageSdk.NotificationCallbacksProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDismissNotification",
+            "printedName": "didDismissNotification(notification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SmartMessageSdk29NotificationCallbacksProtocolP010didDismissD012notificationySDySSypG_tF",
+            "mangledName": "$s15SmartMessageSdk29NotificationCallbacksProtocolP010didDismissD012notificationySDySSypG_tF",
+            "moduleName": "SmartMessageSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SmartMessageSdk.NotificationCallbacksProtocol>",
+            "sugared_genericSig": "<Self where Self : SmartMessageSdk.NotificationCallbacksProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15SmartMessageSdk29NotificationCallbacksProtocolP",
+        "mangledName": "$s15SmartMessageSdk29NotificationCallbacksProtocolP",
+        "moduleName": "SmartMessageSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -8418,6 +8614,32 @@
             "declKind": "Func",
             "usr": "s:15SmartMessageSdk0aB0C27isLocationPermissionGranted6statusySo21CLAuthorizationStatusV_tF",
             "mangledName": "$s15SmartMessageSdk0aB0C27isLocationPermissionGranted6statusySo21CLAuthorizationStatusV_tF",
+            "moduleName": "SmartMessageSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerNotificationCallbacks",
+            "printedName": "registerNotificationCallbacks(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationCallbacksProtocol",
+                "printedName": "any SmartMessageSdk.NotificationCallbacksProtocol",
+                "usr": "s:15SmartMessageSdk29NotificationCallbacksProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SmartMessageSdk0aB0C29registerNotificationCallbacksyyAA0eF8Protocol_pF",
+            "mangledName": "$s15SmartMessageSdk0aB0C29registerNotificationCallbacksyyAA0eF8Protocol_pF",
             "moduleName": "SmartMessageSdk",
             "declAttributes": [
               "AccessControl"
@@ -15283,43 +15505,6 @@
             "objc_name": "application:didFinishLaunchingWithOptions:",
             "declAttributes": [
               "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setDeeplinkHandlerDelegate",
-            "printedName": "setDeeplinkHandlerDelegate(delegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "(any SmartMessageSdk.DeepLinkHandlerDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DeepLinkHandlerDelegate",
-                    "printedName": "any SmartMessageSdk.DeepLinkHandlerDelegate",
-                    "usr": "s:15SmartMessageSdk23DeepLinkHandlerDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15SmartMessageSdk14SMPAppDelegateC018setDeeplinkHandlerE08delegateyAA08DeepLinkhE0_pSg_tF",
-            "mangledName": "$s15SmartMessageSdk14SMPAppDelegateC018setDeeplinkHandlerE08delegateyAA08DeepLinkhE0_pSg_tF",
-            "moduleName": "SmartMessageSdk",
-            "isOpen": true,
-            "declAttributes": [
               "Preconcurrency",
               "Custom",
               "AccessControl"
@@ -25608,34 +25793,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sinan.senturk\/Documents\/smp.mobile.ios.demo-repo\/sdk\/SmartMessageSdk\/SmartMessageSdk\/Source\/Models\/EndPointModels\/ResponseModels\/SliderModel.swift",
-      "kind": "StringLiteral",
-      "offset": 356,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/sinan.senturk\/Documents\/smp.mobile.ios.demo-repo\/sdk\/SmartMessageSdk\/SmartMessageSdk\/Source\/Models\/EndPointModels\/ResponseModels\/SliderModel.swift",
-      "kind": "StringLiteral",
-      "offset": 384,
-      "length": 6,
-      "value": "\"body\""
-    },
-    {
-      "filePath": "\/Users\/sinan.senturk\/Documents\/smp.mobile.ios.demo-repo\/sdk\/SmartMessageSdk\/SmartMessageSdk\/Source\/Models\/EndPointModels\/ResponseModels\/SliderModel.swift",
-      "kind": "StringLiteral",
-      "offset": 415,
-      "length": 10,
-      "value": "\"mediaUrl\""
-    },
-    {
-      "filePath": "\/Users\/sinan.senturk\/Documents\/smp.mobile.ios.demo-repo\/sdk\/SmartMessageSdk\/SmartMessageSdk\/Source\/Models\/EndPointModels\/ResponseModels\/SliderModel.swift",
-      "kind": "StringLiteral",
-      "offset": 449,
-      "length": 9,
-      "value": "\"buttons\""
-    },
-    {
       "filePath": "\/Users\/sinan.senturk\/Documents\/smp.mobile.ios.demo-repo\/sdk\/SmartMessageSdk\/SmartMessageSdk\/Core\/Helpers\/PermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 571,
@@ -27489,34 +27646,6 @@
       "offset": 7895,
       "length": 1,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sinan.senturk\/Documents\/smp.mobile.ios.demo-repo\/sdk\/SmartMessageSdk\/SmartMessageSdk\/Source\/Models\/EndPointModels\/ResponseModels\/ButtonModel.swift",
-      "kind": "StringLiteral",
-      "offset": 375,
-      "length": 12,
-      "value": "\"buttonText\""
-    },
-    {
-      "filePath": "\/Users\/sinan.senturk\/Documents\/smp.mobile.ios.demo-repo\/sdk\/SmartMessageSdk\/SmartMessageSdk\/Source\/Models\/EndPointModels\/ResponseModels\/ButtonModel.swift",
-      "kind": "StringLiteral",
-      "offset": 413,
-      "length": 11,
-      "value": "\"buttonUrl\""
-    },
-    {
-      "filePath": "\/Users\/sinan.senturk\/Documents\/smp.mobile.ios.demo-repo\/sdk\/SmartMessageSdk\/SmartMessageSdk\/Source\/Models\/EndPointModels\/ResponseModels\/ButtonModel.swift",
-      "kind": "StringLiteral",
-      "offset": 452,
-      "length": 13,
-      "value": "\"buttonColor\""
-    },
-    {
-      "filePath": "\/Users\/sinan.senturk\/Documents\/smp.mobile.ios.demo-repo\/sdk\/SmartMessageSdk\/SmartMessageSdk\/Source\/Models\/EndPointModels\/ResponseModels\/ButtonModel.swift",
-      "kind": "StringLiteral",
-      "offset": 497,
-      "length": 17,
-      "value": "\"buttonTextColor\""
     },
     {
       "filePath": "\/Users\/sinan.senturk\/Documents\/smp.mobile.ios.demo-repo\/sdk\/SmartMessageSdk\/SmartMessageSdk\/Presentation\/RemoteNotifications\/ImageNotification\/Source\/ImageNotificationViewController.swift",
