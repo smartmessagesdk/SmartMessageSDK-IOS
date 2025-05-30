@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
-// swift-module-flags: -target x86_64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SmartMessageSdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SmartMessageSdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AVKit
 import BackgroundTasks
@@ -219,7 +219,7 @@ public enum PermissionType : Swift.String, Swift.Codable {
   }
 }
 extension SmartMessageSdk.SmartMessage {
-  public func configureNotificationService(request: UserNotifications.UNNotificationRequest, contentHandler: (UserNotifications.UNNotificationContent) -> Swift.Void, bestAttemptContent: UserNotifications.UNMutableNotificationContent?)
+  public func configureNotificationService(request: UserNotifications.UNNotificationRequest, contentHandler: ((UserNotifications.UNNotificationContent) -> Swift.Void), bestAttemptContent: UserNotifications.UNMutableNotificationContent?)
   public func handleApsCryption(aps: [Swift.String : Any], _ completion: @escaping (_ notificationInfo: [Swift.String : Any]?, _ error: SmartMessageSdk.NotificationDecryptionHelperError?) -> Swift.Void)
   public func saveInAppToPhysicalMemory(userInfo: [Swift.AnyHashable : Any]) throws
   public func showPendingInApp(viewController: UIKit.UIViewController!) throws
@@ -582,8 +582,8 @@ public enum LinkType : Swift.Int, Swift.Codable {
 }
 @_hasMissingDesignatedInitializers public class TargetAddress : Swift.Codable {
   required public init(from decoder: any Swift.Decoder) throws
-  @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
 }
 extension SmartMessageSdk.SmartMessage {
   public func showSmallInAppPopUp(baseViewController: UIKit.UIViewController, notificationInfo: [Swift.String : Any])

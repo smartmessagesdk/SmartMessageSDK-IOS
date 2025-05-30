@@ -15243,7 +15243,9 @@
             "usr": "s:15SmartMessageSdk13TargetAddressC6encode2toys7Encoder_p_tKF",
             "mangledName": "$s15SmartMessageSdk13TargetAddressC6encode2toys7Encoder_p_tKF",
             "moduleName": "SmartMessageSdk",
-            "implicit": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
